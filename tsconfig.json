@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // Target language and language features
+    "target": "es2020",
+    "module": "commonjs",
+    "jsx": "react",
+    "esModuleInterop": true,
+
+    // What to typecheck
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Where to typecheck
+    // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/33311#issuecomment-466731156
+    "types": [
+      "react"
+    ],
+    "resolveJsonModule": true,
+
+    // Output
+    "incremental": true,
+    "outDir": "node_modules/.cache/tsc"
+  },
+  "include": [
+    "src"
+  ]
+}
